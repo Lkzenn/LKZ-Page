@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap'); 
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: "poppins", serif
+  }
+
+.background {
+            background-image: url(background.jpg);
+            background-size: cover;
+            background-position: center;
+            width: 100%;
+            height: 100vh;
+}
+
+header{
+    display: flex;
+    justify-content:right;
+    max-width: 95%;
+    align-items: center;
+    text-align: center;
+    padding-top: 4rem;
+}
+
+.cabeçalho-link{
+                display: flex;
+                gap: 5rem;
+                font-weight: 20px;
+                font-size: 25px;
+                cursor: pointer;             
+            }
+
+.cabeçalho-link a{
+            color: white;
+}
+.cabeçalho-link a:hover{
+            color: #a91b0d;
+            transition: 0.3 all;
+}
+
+button{
+    color: white;
+    background: transparent;
+    border: solid 3px #a91b0d;
+    padding: 3px;
+    border-radius: 15px;
+    font-size: 20px;
+    font-weight: 1000px;
+    cursor: pointer;
+}
+button:hover{
+    background-color: #a91b0d;
+    color: white;
+    transition: 0.5;
+}
+
+.container-text{
+            padding: 150px 0 0 30px;
+           }
+
+.text h3{
+    position: relative;
+    animation-name: queda;
+    animation-duration: 2s;
+    animation-timing-function: ease;
+    animation-fill-mode: forwards;
+        color: white;
+        font-size: 20px;
+    }
+.text h1{
+    position: relative;
+    animation-name: queda;
+    animation-duration: 2s;
+    animation-timing-function: ease;
+    animation-fill-mode: forwards;
+    color:white ;
+    margin-top: 10px;
+}
+.text span{
+    position: relative;
+    animation-name: queda;
+    animation-duration: 2s;
+    animation-timing-function: ease;
+    animation-fill-mode: forwards;
+    color: #a91b0d;
+    }
+.text p{
+    position: relative;
+    animation-name: queda;
+    animation-duration: 2s;
+    animation-timing-function: ease;
+    animation-fill-mode: forwards;
+    color: white;
+    font-size: 13px;
+    font-weight: 1000;
+    margin-top: 10px;
+}
+@keyframes queda {
+    from {
+      top: -100px;
+      opacity: 0;
+    }
+    to {
+      top: 0;
+      opacity: 1;
+    }
+  }
+
+.redes-sociais a{ 
+        position: relative;
+        animation-name: queda;
+        animation-duration: 2s;
+        animation-timing-function: ease;
+        animation-fill-mode: forwards;
+        color: #a91b0d;
+        font-size: 25px;
+        padding: 10px;
+        margin-top: 15px;
+        border: 2px solid #a91b0d;
+        border-radius: 100px;
+
+}
