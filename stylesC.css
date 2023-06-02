@@ -136,16 +136,16 @@ header{
   }
 
 .redes-sociais a{ 
-        position: relative;
-        animation-name: queda;
-        animation-duration: 2s;
-        animation-timing-function: ease;
-        animation-fill-mode: forwards;
-        color: #a91b0d;
-        font-size: 40px;
-        padding: 10px 0 0 30px;
-        align-items: center;
-        text-align: center;
+  position: relative;
+  animation-name: queda;
+  animation-duration: 2s;
+  animation-timing-function: ease;
+  animation-fill-mode: forwards;
+  color: #a91b0d;
+  font-size: 40px;
+  padding: 10px 0 0 30px;
+  align-items: center;
+  text-align: center;
 
 }
 .container {
