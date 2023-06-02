@@ -23,7 +23,7 @@ header{
     max-width: 95%;
     align-items: center;
     text-align: center;
-    padding-top: 3rem;
+    padding-top: 2rem;
 }
 
 .cabeçalho-link{
@@ -93,7 +93,7 @@ header{
 }
 
 .container-text{
-            padding: 150px 0 0 30px;
+            padding: 130px 0 0 30px;
            }
 
 .text h3{
@@ -152,7 +152,7 @@ header{
         animation-timing-function: ease;
         animation-fill-mode: forwards;
         color: #a91b0d;
-        font-size: 30px;
+        font-size: 40px;
         padding: 10px 0 0 30px;
         align-items: center;
         text-align: center;
