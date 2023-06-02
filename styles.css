@@ -10,7 +10,7 @@
   }
 
 .background {
-            background-image: url(background.jpg);
+            background-image: url(background02.jpg);
             background-size: cover;
             background-position: center;
             width: 100%;
@@ -23,15 +23,15 @@ header{
     max-width: 99%;
     align-items: center;
     text-align: center;
-    padding-top: 3rem;
+    padding-top: 2rem;
 }
 
 .cabeçalho-link{
-  position: relative;
-        animation-name: queda;
-        animation-duration: 2s;
-        animation-timing-function: ease;
-        animation-fill-mode: forwards;
+    position: relative;
+    animation-name: queda;
+    animation-duration: 2s;
+    animation-timing-function: ease;
+    animation-fill-mode: forwards;
                 display: flex;
                 gap: 2rem;
                 font-weight: 500;
@@ -97,17 +97,12 @@ header{
 }
 
 .container-text{
-            padding: 150px 0 0 30px;
+            padding: 0 0 0 60px;
            }
 
-.text h3{
-    position: relative;
-    animation-name: queda;
-    animation-duration: 2s;
-    animation-timing-function: ease;
-    animation-fill-mode: forwards;
+#text h2{
         color: white;
-        font-size: 25px;
+        font-size: 40px;
     }
 .text h1{
     position: relative;
@@ -128,14 +123,9 @@ header{
     color: #a91b0d;
     }
 .text p{
-    position: relative;
-    animation-name: queda;
-    animation-duration: 2s;
-    animation-timing-function: ease;
-    animation-fill-mode: forwards;
     color: white;
     font-size: 25px;
-    font-weight: 1000;
+    font-weight: 300;
     margin-top: 10px;
 }
 @keyframes queda {
@@ -162,3 +152,30 @@ header{
         text-align: center;
 
 }
+.container {
+    color: white;
+    font-size: 37px;
+    width: 15%;
+    height: 100px;
+    overflow: hidden;
+    position: relative;
+  }
+  
+  .animated-text {
+    color: white;
+    font-size: 40px;
+    position: absolute;
+    top: 20%;
+    white-space: nowrap;
+    animation: slideLeftRight 2s linear;
+  }
+  
+  @keyframes slideLeftRight {
+    0% {
+      Right: 100%;
+    }
+    100% {
+      Right: 36%;
+    }
+  }
+  
