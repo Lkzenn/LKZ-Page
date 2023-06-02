@@ -20,7 +20,7 @@
 header{
     display: flex;
     justify-content:right;
-    max-width: 99%;
+    max-width: 95%;
     align-items: center;
     text-align: center;
     padding-top: 2rem;
@@ -48,10 +48,9 @@ header{
 }
 
 #border1:hover{
-  border: solid 3px #a91b0d;
+  outline: 2px solid #a91b0d ;
   align-items: center;
   align-content: center;
-  padding: 3px;
   border-radius: 15px;
   font-weight: 500;
   font-size: 35px;
@@ -60,10 +59,9 @@ header{
 }
 
 #border2:hover{
-  border: solid 3px #a91b0d;
+  outline: 2px solid #a91b0d ;
   align-items: center;
   align-content: center;
-  padding: 3px;
   border-radius: 15px;
   font-weight: 500;
   font-size: 35px;
@@ -72,10 +70,9 @@ header{
 }
 
 #border3:hover{
-  border: solid 3px #a91b0d;
+  outline: 2px solid #a91b0d ;
   align-items: center;
   align-content: center;
-  padding: 3px;
   border-radius: 15px;
   font-weight: 500;
   font-size: 35px;
@@ -85,10 +82,9 @@ header{
 
 
 #border4:hover{
-  border: solid 3px #a91b0d;
+  outline: 2px solid #a91b0d ;
   align-items: center;
   align-content: center;
-  padding: 3px;
   border-radius: 15px;
   font-weight: 500;
   font-size: 35px;
